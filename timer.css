@@ -25,7 +25,8 @@
 .content > h1 {
     font-size: 64px;
     font-weight: 600;
-    color: white
+    color: white;
+    margin-left: 180px;
 }
 
 .launch-time {
@@ -34,9 +35,16 @@
 
 .launch-time > div {
     flex-basis: 100px;
+    margin-left: 180px;
+    margin-top: 20px;
 }
 
 .launch-time > div > p {
     font-size: 60px;
     margin-bottom: -14px;
+    
+}
+
+span {
+    margin-left: 10px;
 }
