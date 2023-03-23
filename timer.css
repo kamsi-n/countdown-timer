@@ -22,8 +22,21 @@
     color: #fff;
 }
 
-.content h1 {
+.content > h1 {
     font-size: 64px;
     font-weight: 600;
-    color: aqua;
+    color: white
+}
+
+.launch-time {
+    display: flex;
+}
+
+.launch-time > div {
+    flex-basis: 100px;
+}
+
+.launch-time > div > p {
+    font-size: 60px;
+    margin-bottom: -14px;
 }
