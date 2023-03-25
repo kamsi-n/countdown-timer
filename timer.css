@@ -50,8 +50,68 @@
     margin-bottom: 10px;
     color: rgb(252, 88, 115);
     font-weight: 600;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 3;
 }
+  
+  .square-1 {
+    background-color: rgb(89, 61, 116);
+    width: 7%;
+    height: 25%;
+    border-bottom: 1px solid rgb(40, 9, 68);
+    border-radius: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-top: 8%;
+    margin-left: 19.3%;
+  }
+  
+  .square-2 {
+    background-color: rgb(89, 61, 116);
+    width: 7%;
+    height: 25%;
+    border-top: 1px solid rgb(40, 9, 68);
+    border-radius: 10%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    margin-bottom: 2.5%;
+    margin-left: 19.3%;
+  }
 
+  .square-3 {
+    background-color: rgb(89, 61, 116);
+    width: 7%;
+    height: 25%;
+    border-bottom: 1px solid rgb(40, 9, 68);
+    border-radius: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-top: 8%;
+    margin-left: 43%;
+  }
+  
+  .square-4 {
+    background-color: rgb(89, 61, 116);
+    width: 7%;
+    height: 25%;
+    border-top: 1px solid rgb(40, 9, 68);
+    border-radius: 10%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    margin-bottom: 2.5%;
+    margin-left: 43%;
+  }
+  
 img {
     max-width: 20px;
     position: relative;
