@@ -48,7 +48,7 @@
 .launch-time > div > p {
     font-size: 60px;
     margin-bottom: 10px;
-    color: rgb(252, 88, 115);
+    color: rgb(255, 111, 135);
     font-weight: 600;
     width: 100%;
     height: 100%;
@@ -56,61 +56,117 @@
     z-index: 3;
 }
   
-  .square-1 {
-    background-color: rgb(89, 61, 116);
-    width: 7%;
-    height: 25%;
-    border-bottom: 1px solid rgb(40, 9, 68);
-    border-radius: 10%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    margin-top: 8%;
-    margin-left: 19.3%;
-  }
-  
-  .square-2 {
-    background-color: rgb(89, 61, 116);
-    width: 7%;
-    height: 25%;
-    border-top: 1px solid rgb(40, 9, 68);
-    border-radius: 10%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 2;
-    margin-bottom: 2.5%;
-    margin-left: 19.3%;
-  }
+.square-1 {
+  background-color: rgb(104, 86, 121);
+  width: 8%;
+  height: 25%;
+  border-bottom: 1px solid rgb(40, 9, 68);
+  border-radius: 10%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  margin-top: 8%;
+  margin-left: 17.5%;
+}
 
-  .square-3 {
-    background-color: rgb(89, 61, 116);
-    width: 7%;
-    height: 25%;
-    border-bottom: 1px solid rgb(40, 9, 68);
-    border-radius: 10%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    margin-top: 8%;
-    margin-left: 43%;
-  }
-  
-  .square-4 {
-    background-color: rgb(89, 61, 116);
-    width: 7%;
-    height: 25%;
-    border-top: 1px solid rgb(40, 9, 68);
-    border-radius: 10%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 2;
-    margin-bottom: 2.5%;
-    margin-left: 43%;
-  }
+.square-2 {
+  background-color: rgb(104, 86, 121);
+  width: 8%;
+  height: 25%;
+  border-top: 1px solid rgb(40, 9, 68);
+  border-radius: 10%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  margin-bottom: 2.5%;
+  margin-left: 17.5%;
+}
+
+.square-3 {
+  background-color: rgb(104, 86, 121);
+  width: 8%;
+  height: 25%;
+  border-bottom: 1px solid rgb(40, 9, 68);
+  border-radius: 10%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  margin-top: 8%;
+  margin-left: 40.7%;
+}
+
+.square-4 {
+  background-color: rgb(104, 86, 121);
+  width: 8%;
+  height: 25%;
+  border-top: 1px solid rgb(40, 9, 68);
+  border-radius: 10%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  margin-bottom: 2.5%;
+  margin-left: 40.7%;
+}
+
+.square-5 {
+  background-color: rgb(104, 86, 121);
+  width: 8%;
+  height: 25%;
+  border-top: 1px solid rgb(40, 9, 68);
+  border-radius: 10%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  margin-bottom: 2.5%;
+  margin-left: 65%;
+}
+
+.square-6 {
+  background-color: rgb(104, 86, 121);
+  width: 8%;
+  height: 25%;
+  border-bottom: 1px solid rgb(40, 9, 68);
+  border-radius: 10%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  margin-top: 8%;
+  margin-left: 65%;
+}
+
+.square-7 {
+  background-color: rgb(104, 86, 121);
+  width: 8%;
+  height: 25%;
+  border-top: 1px solid rgb(40, 9, 68);
+  border-radius: 10%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  margin-bottom: 2.5%;
+  margin-left: 90.3%;
+}
+
+.square-8 {
+  background-color: rgb(104, 86, 121);
+  width: 8%;
+  height: 25%;
+  border-bottom: 1px solid rgb(40, 9, 68);
+  border-radius: 10%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  margin-top: 8%;
+  margin-left: 90.3%;
+}
   
 img {
     max-width: 20px;
@@ -125,8 +181,9 @@ img {
 }
 
 span {
-    color: white;
-    font-weight: 600;
+    color: rgb(226, 226, 226);
+    font-weight: 700;
     font-size: 14px;
+    letter-spacing: 3px;
 }
 
